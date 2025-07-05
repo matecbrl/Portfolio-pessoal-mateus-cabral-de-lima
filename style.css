@@ -1,0 +1,150 @@
+/*configuração base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* determinar configuração de texto, fontes, espaçamento*/
+body {
+    font-family: 'Courier New', monospace;
+    padding-top: 40px;
+    background-color: rgb(36, 38, 36);
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+#hero h1 {
+    text-align: center;
+  font-size: 3rem;
+  color: #00ff00;
+  text-shadow: 0 0 10px #00ff00;
+}
+
+/* espeçamento da navbar e header */
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 20px 40px;
+}
+/* imagem que está na página de formações, formatada para não ocupar tanto espaço, coisa simples */
+.imagem1 {
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+  border: 2px solid #00ff00;
+  border-radius: 5px;
+}
+.imagemJS{
+  max-width: 500px;
+  height: auto;
+  margin: 0;
+  border: 2px solid #00ff00;
+  border-radius: 5px;
+}
+.circuito{
+  max-width: 500px;
+  height: auto;
+  margin: 0;
+  border: 2px solid #00ff00;
+  border-radius: 5px;
+}
+.imagempython {
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+  border: 2px solid #00ff00;
+  border-radius: 5px;
+}
+.apresentacao { 
+    max-width: 600px;
+    text-align: justify;
+    margin: 40px auto;
+    
+
+}
+
+/* Smooth scroll pra ser user friendly */
+html {
+    scroll-behavior: smooth;
+}
+/*cor de títulos */
+h1, h3 { color: #00ff00;
+    font-weight: bold;
+}
+
+/*aqui é o estilo da navbar, cor de fundo, tamanhos etc*/
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #211f1f;
+  color: #00ff00;
+  padding: 10px 40px;
+  border-bottom: 1px solid #00ff00;
+  z-index: 999;
+  text-align: center;
+  }
+/* cor do texto da navbar*/
+  nav a{ color: #00ff00;}
+
+
+  /* cor do texto quando o mouse estiver em cima do texto da navbar*/
+  nav a:hover{
+  color: #00ff00;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+  text-shadow: 0 0 10px #00ff00;
+    text-decoration: dotted;
+  }
+/* aqui é ára fazer tipo uma caixa ao redor das classes mencionadas*/
+
+.formacao,
+.projeto-feito {
+  max-width: 700px;
+  border: 1px solid #00ff00;
+  background-color: rgba(0, 255, 0, 0.05);;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto 20px auto;
+  
+}
+
+/* fazer o espaçamento dos títulos (no centro*/
+.titulo {
+    text-align: center;
+    font-size: 2rem;
+    
+}
+/* o botão do email*/
+.email {
+  display: block;
+  color: #00ff00;
+  padding: 15px;
+  border: 2px solid #00ff00;
+  border-radius: 8px;
+  text-align: center;
+  transition: 0.3s;
+  text-decoration: none;
+  width: fit-content;
+  margin: 20px auto;
+
+  
+}
+
+.email:hover {
+  background: #00ff00;
+  color: #000;
+  box-shadow: 0 0 10px #00ff00;
+}
+.pagina {
+  background-color: #000;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  
+}
