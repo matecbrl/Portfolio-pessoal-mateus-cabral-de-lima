@@ -11,6 +11,7 @@ body {
     background-color: rgb(36, 38, 36);
     color: #ffffff;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 #hero h1 {
