@@ -13,7 +13,11 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
-
+/* mobile friendly */
+img, .formacao, .projeto-feito, .pagina, .apresentacao {
+  max-width: 100%;
+  width: 100%;
+}
 #hero h1 {
     text-align: center;
   font-size: 3rem;
